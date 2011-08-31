@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:orientation="vertical">
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1" android:background="@drawable/jr" android:gravity="center|top">
+        <TextView  
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" android:text="@string/hello" android:textColor="#f0f"/>
+        <LinearLayout android:id="@+id/t1" android:orientation="vertical" android:gravity="bottom|center_horizontal" android:layout_width="99dp" android:layout_height="match_parent">
+            <DigitalClock android:gravity="center_vertical|bottom" android:text="DigitalClock" android:layout_height="wrap_content" android:layout_width="60dp" android:id="@+id/digitalClock1" android:textColor="#000"></DigitalClock>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        
+       
